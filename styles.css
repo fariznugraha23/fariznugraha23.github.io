@@ -75,6 +75,13 @@ a img{border:0px;}
 	height:26px; 
 	background:url(images/sm-linkedin-icon.png) no-repeat;
 }
+#about #top-social .instagram{
+	text-indent:-9999px; 
+	display:block; 
+	width:26px; 
+	height:26px; 
+	background:url(images/sm-ig-icon.png) no-repeat;
+}
 #about .content{overflow:auto;}
 #about .content img{float:left; margin-right:40px; border:5px solid #222222;}
 #about .content #service-icons{margin-top:20px;}
@@ -98,12 +105,15 @@ a img{border:0px;}
 
 #experience{margin:0px 43px; padding-top:115px;}
 #experience .col{
-	width:235px;
+	width:380px;
 	float:left;
 }
 #experience .content{overflow:auto;}
-#experience .col-mid{margin:0px 65px;}
-
+#experience .col-mid{margin:0px 25px;}
+ul.a {
+	list-style-position: outside;
+	list-style-type:disc;
+  }
 /****************************************************/
 /* WORK SECTION */
 /****************************************************/
