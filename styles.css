@@ -114,9 +114,22 @@ ul.a {
 	list-style-position: outside;
 	list-style-type:disc;
   }
+  ul.b {
+	list-style-position: outside;
+	list-style-type:disc;
+  }
 /****************************************************/
 /* WORK SECTION */
 /****************************************************/
+#education{margin:0px 43px; padding-top:115px;}
+#education .content{overflow:auto;}
+#education #education-thumbs li{
+	list-style:none;
+	float:left;
+	margin:0px 20px 15px 0px;
+	padding:0px;
+}
+#education #education-thumbs li.last{margin:0px;}
 
 #work{margin:0px 43px; padding-top:115px;}
 #work .content{overflow:auto;}
