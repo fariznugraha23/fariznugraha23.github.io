@@ -102,6 +102,9 @@ a img{border:0px;}
 /****************************************************/
 /* EXPERIENCE SECTION */
 /****************************************************/
+a:hover {
+	color: yellow;
+  }
 
 #experience{margin:0px 43px; padding-top:115px;}
 #experience .col{
